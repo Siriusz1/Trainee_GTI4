@@ -2,7 +2,7 @@ function Text (){
     return(
         <>
         <div className="flex justify-center">
-            <div className="w-[50%] h-auto py-[10%] z-50 text-white text-center flex flex-col justify-center border-b-2 gap-10">
+            <div className="w-[50%] h-auto py-[10%] text-white text-center flex flex-col justify-center border-b-2 gap-10">
                 <div>
                     <h1 className="text-[32px]">
                         Título

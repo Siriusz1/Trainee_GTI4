@@ -99,7 +99,7 @@ function Quiz() {
 
   return (
     <div className='w-full h-screen flex items-center justify-center'>
-      <div className='w-[40%] h-auto border border-gray-500'>
+      <div className='w-[60%] h-auto border border-gray-500'>
         {showScore ? (
           <div className='text-center'>
             <p className='text-3xl font-bold mb-4 text-white'>Você Pontuou: </p>
