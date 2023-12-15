@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-slide > div{
+    margin: 0 10px;
+}
+
+.custom-color {
+    color: #9d06ff;
+  }
+
+.custom-color2{
+    color: #07031C;
+}
+
+.shadow-purple:hover {
+    box-shadow: 0 4px 6px -1px rgba(156, 39, 176, 0.1), 0 2px 4px -1px rgba(156, 39, 176, 0.06);
+  }

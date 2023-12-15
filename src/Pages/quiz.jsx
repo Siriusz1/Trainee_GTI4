@@ -1,12 +1,14 @@
 import React from 'react';
+import Quiz from '../Components/Quiz';
 
-function Quiz(){
+function QuizSection(){
     return(
         <>
-            <div className="bg-[#012E40]">
+            <div className="bg-[#07031C]">
+                <Quiz />
             </div>
         </>
     )
 }
 
-export default Quiz;
+export default QuizSection;

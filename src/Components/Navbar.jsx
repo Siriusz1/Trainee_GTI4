@@ -19,9 +19,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-[#07031C] flex justify-between items-center h-24 w-full mx-auto px-4 text-white z-50'>
+    <div className='bg-[#07031C] flex justify-between items-center h-24 w-full mx-auto px-4 text-white z-50 fixed'>
       {/* Logo */}
-      <Link to={'/'} className='w-full text-3xl font-bold text-[#9D06FF] ml-[2%] cursor-pointer'>Logo.</Link>
+      <Link to={'/'} className=' text-3xl font-bold text-[#9D06FF] ml-[2%] cursor-pointer'>Logo.</Link>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex '>
@@ -49,7 +49,7 @@ const Navbar = () => {
         }
       >
         {/* Mobile Logo */}
-        <Link to='/' className='w-full text-3xl font-bold text-[#9D06FF] m-4'>Logo.</Link>
+        <Link to='/' className=' text-3xl font-bold text-[#9D06FF] m-4'>Logo.</Link>
 
         {/* Mobile Navigation Items */}
         {navItems.map(item => (

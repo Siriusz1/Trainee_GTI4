@@ -1,0 +1,25 @@
+{
+    "Numbers": [
+      {
+        "id": 1,
+        "title": "Clientes Satisfeitos",
+        "value": "1000+"
+      },
+      {
+        "id": 2,
+        "title": "Projetos Concluídos",
+        "value": "500+"
+      },
+      {
+        "id": 3,
+        "title": "Equipe Dedicada",
+        "value": "50+"
+      },
+      {
+        "id": 4,
+        "title": "Anos de Experiência",
+        "value": "10+"
+      }
+    ]
+  }
+  

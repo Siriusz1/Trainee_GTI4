@@ -1,0 +1,20 @@
+{
+    "Sedes": [
+      {
+        "id": 1,
+        "location": "Miami, Florida",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et urna non arcu dignissim condimentum. Etiam placerat erat non felis mattis cursus."
+      },
+      {
+        "id": 2,
+        "location": "Orlando, Florida",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et urna non arcu dignissim condimentum. Etiam placerat erat non felis mattis cursus."
+      },
+      {
+        "id": 3,
+        "location": "Tampa Bay, Florida",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et urna non arcu dignissim condimentum. Etiam placerat erat non felis mattis cursus."
+      }
+    ]
+  }
+  

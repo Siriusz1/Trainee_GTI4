@@ -5,6 +5,7 @@ import About from './Pages/about';
 import Contact from './Pages/contact';
 import Quiz from './Pages/quiz';
 import Navbar from './Components/Navbar';
+import { Footer } from './Components/Footer';
 import './css/index.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='contact' element={<Contact />}></Route>
           <Route path='quiz' element={<Quiz />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </ThemeProvider>
   </React.StrictMode>

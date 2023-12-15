@@ -1,11 +1,18 @@
 import React from 'react';
-import { CarouselCustomNavigation } from "../Components/Slider";
-
+import { Slider } from '../Components/Slider';
+import Depositions from '../Components/Depositions';
+import  Numbers  from '../Components/Numbers';
+import Text from '../Components/Text';
 function App (){
     return(
-        <>
-            <div className="bg-[#012E40]">
-                <CarouselCustomNavigation />
+        <>bg-[#07031C]
+            <div className="bg-[#07031C]">
+                
+                <Slider />
+                <Text />
+                <Depositions type={1} />
+                <Numbers />
+                
             </div>
         </>
     )

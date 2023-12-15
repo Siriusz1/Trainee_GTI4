@@ -1,0 +1,31 @@
+{
+    "Services":[
+        {
+            "id": 1,
+            "title": "Service 1",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat nisi risus, sit amet fermentum libero imperdiet quis" ,
+            "img:":""
+        },
+
+        {
+            "id": 2,
+            "title": "Service 2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat nisi risus, sit amet fermentum libero imperdiet quis" ,
+            "img:":""
+        },
+
+        {
+            "id": 3,
+            "title": "Service 3",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat nisi risus, sit amet fermentum libero imperdiet quis" ,
+            "img:":""
+        },
+
+        {
+            "id": 4,
+            "title": "Service 4",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat nisi risus, sit amet fermentum libero imperdiet quis" ,
+            "img:":""
+        }
+    ]
+}
