@@ -40,10 +40,10 @@ function Form() {
                       Email
                     </h2>
                     <p className="mt-2 text-sm text-gray-500 ">
-                      Our friendly team is here to help.
+                      Nosso time está aqui para ajudar.
                     </p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                      hello@merakiui.com
+                      qualquercoisa@gmail.com.
                     </p>
                   </div>
 
@@ -74,10 +74,10 @@ function Form() {
                       Live chat
                     </h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                      Our friendly team is here to help.
+                     Nosso time está aqui para ajudar.
                     </p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                      Start new chat
+                      Começe um novo chat.
                     </p>
                   </div>
 
@@ -105,13 +105,13 @@ function Form() {
                     </span>
 
                     <h2 className="mt-4 text-base font-medium text-white">
-                      Office
+                      Escritório
                     </h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                      Come say hello at our office HQ.
+                      Venha dizer olá no nosso escritório.
                     </p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                      100 Smith Street Collingwood VIC 3066 AU
+                      Avenida Dos Jangadeiros, 468
                     </p>
                   </div>
 
@@ -134,10 +134,10 @@ function Form() {
                     </span>
 
                     <h2 className="mt-4 text-base font-medium text-white">
-                      Phone
+                      Telefone
                     </h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                      Mon-Fri from 8am to 5pm.
+                      Segunda à Sexta - 20:00
                     </p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
                       +1 (555) 000-0000
@@ -147,7 +147,7 @@ function Form() {
               </div>
 
               <div className="mt-6 md:mt-8">
-                <h3 className="text-gray-300 text-sm ">Follow us</h3>
+                <h3 className="text-gray-300 text-sm ">Estamos aqui também!</h3>
 
                 <div className="flex mt-4 -mx-1.5 ">
                   <a
@@ -192,17 +192,17 @@ function Form() {
             <div className="mt-8 lg:w-1/2 lg:mx-6">
               <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
                 <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">
-                  Contact form
+                  Nos envie uma mensagem
                 </h1>
 
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
-                  Ask us everything and we would love to hear from you
+                  Pergunte-nos tudo! Adoraremos responder você.
                 </p>
 
                 <form className="mt-6">
                   <div className="flex-1">
                     <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                      Full Name
+                      Nome Completo
                     </label>
                     <input
                       type="text"
@@ -213,7 +213,7 @@ function Form() {
 
                   <div className="flex-1 mt-6">
                     <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                      Email address
+                      Endereço de Email
                     </label>
                     <input
                       type="email"
@@ -224,16 +224,16 @@ function Form() {
 
                   <div className="w-full mt-6">
                     <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                      Message
+                      Mensagem
                     </label>
                     <textarea
                       className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
-                      placeholder="Message"
+                      placeholder="Mensagem"
                     ></textarea>
                   </div>
 
                   <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#9D06FF] rounded-md hover:bg-[#601E8F] focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
-                    get in touch
+                    Enviar
                   </button>
                 </form>
               </div>

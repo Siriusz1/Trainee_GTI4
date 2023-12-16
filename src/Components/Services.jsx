@@ -5,11 +5,11 @@ import database from "../services.json";
 
 export function Services() {
   return (
-    <div className="flex flex-col items-center mt-8">
-      <h1 className="z-20 text-xl md:text-4xl text-white mb-10 text-center">
+    <div className="flex flex-col items-center justify-center py-[5%]">
+      <h1 className="z-20 text-xl md:text-4xl text-white mb-10 ">
         NOSSOS SERVIÇOS
       </h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 pt-16">
         {database.Services.map((serviceData) => (
           <ServiceCard
             key={serviceData.id}

@@ -9,8 +9,8 @@ function DepositionCard({ id, img, name, mensage }) {
       <div className="flex flex-col justify-center items-center gap-4 p-[5%]">
         <p className="text-xl font-semibold">{name}</p>
         <p className="text-center xs:text-sm text-xs">{mensage}</p>
-        <button className="bg-[#9d06ff] text-white px-[6%] py-[2%] rounded-xl text-base sm:text-xs md:text-xl">
-          Read More
+        <button className="bg-[#9d06ff] text-white px-[6%] py-[2%] rounded-xl text-base sm:text-xs md:text-xl hover:bg-[#601E8F] transition duration-150">
+          Leia mais...
         </button>
       </div>
     </div>

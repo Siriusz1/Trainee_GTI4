@@ -1,4 +1,6 @@
 import { Typography } from "@material-tailwind/react";
+import React from "react";
+import { Link } from "react-router-dom";
  
 export function Footer() {
   return (
@@ -13,7 +15,9 @@ export function Footer() {
             href="#"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 custom-color"
           >
+            <Link to={'/about'}>
             Sobre Nós
+            </Link>
           </Typography>
         </li>
         <li>
@@ -22,7 +26,9 @@ export function Footer() {
             href="#"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 custom-color"
           >
+            <Link to={'/contact'}>
             Contato
+            </Link>
           </Typography>
         </li>
         <li>
@@ -31,7 +37,9 @@ export function Footer() {
             href="#"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 custom-color"
           >
+            <Link to={'/quiz'}>
             Quiz
+            </Link>
           </Typography>
         </li>
         <li>
@@ -40,7 +48,7 @@ export function Footer() {
             href="#"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 custom-color"
           >
-            Licença
+            <Link>Licença</Link>
           </Typography>
         </li>
       </ul>

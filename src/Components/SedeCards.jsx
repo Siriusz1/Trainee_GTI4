@@ -34,19 +34,19 @@ function SedeCard({ id, location, description }) {
         </div>
         <Typography color="gray">{description}</Typography>
         <div className="group mt-8 inline-flex flex-wrap items-center gap-3">
-          <Tooltip content="And +20 more">
+          <Tooltip content="Localização">
             <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
               <FaMapLocationDot />
             </span>
           </Tooltip>
 
-          <Tooltip content="And +20 more">
+          <Tooltip content="Fotos">
             <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
               <AiFillPicture />
             </span>
           </Tooltip>
 
-          <Tooltip content="And +20 more">
+          <Tooltip content="Horário de Funcionamento">
             <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
               <FaClock />
             </span>

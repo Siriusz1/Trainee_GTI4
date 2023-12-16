@@ -35,10 +35,10 @@ function Depositions({ type }) {
 
     card = (
       <div className="flex flex-col items-center mt-[5%] justify-center">
-        <h1 className="z-20 text-xl md:text-4xl text-white mb-10 text-center">
+        <h1 className="z-20 text-xl md:text-4xl text-white md:mb-10 md:mt-0 mt-10 mb-0 text-center">
           DEPOIMENTOS DOS CLIENTES
         </h1>
-        <div className="w-[60%] h-[600px] m-auto flex justify-center items-center">
+        <div className="md:w-[60%] w-[80%]  m-auto h-[600px] flex justify-center items-center">
           <div className="h-[80%] w-[100%] flex items-center">
             <Slider {...settings} className="w-full">
               {database.Depositions.map((depositionData) => (
